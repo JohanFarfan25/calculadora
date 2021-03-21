@@ -126,7 +126,7 @@ function App() {
                 <Grid item xs={3}>
                   <Paper className={classes.paper}>
                     <Button variant="outlined" color="secondary">
-                      5
+                      4
                     </Button>
                   </Paper>
                 </Grid>
