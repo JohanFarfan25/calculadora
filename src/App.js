@@ -125,7 +125,7 @@ function App() {
 
                 <Grid item xs={3}>
                   <Paper className={classes.paper}>
-                    <Button variant="outlined" color="secondary">
+                    <Button variant="outlined" color="primary">
                       4 
                     </Button>
                   </Paper>
@@ -157,7 +157,7 @@ function App() {
 
                 <Grid item xs={3}>
                   <Paper className={classes.paper}>
-                    <Button variant="outlined" color="secondary">
+                    <Button variant="outlined" color="primary">
                       1
                     </Button>
                   </Paper>
@@ -190,7 +190,7 @@ function App() {
 
                 <Grid item xs={3}>
                   <Paper className={classes.paper}>
-                    <Button variant="outlined" color="secondary">
+                    <Button variant="outlined" color="primary">
                       0
                     </Button>
                   </Paper>
