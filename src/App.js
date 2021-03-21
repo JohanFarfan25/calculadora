@@ -93,7 +93,7 @@ function App() {
 
                 <Grid item xs={3}>
                   <Paper className={classes.paper}>
-                    <Button variant="outlined" color="secondary">
+                    <Button variant="outlined" color="primary">
                       7
                     </Button>
                   </Paper>
