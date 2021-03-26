@@ -61,7 +61,7 @@ export default class App extends React.Component {
 
 
       <Container maxWidth="sm" className={useStyles.altura}>
-        <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} >
+        <Typography component="div" style={{ backgroundColor: 'white', height: '100vh' }} >
           <div className={useStyles.root}>
             <AppBar position="static">
               <Toolbar variant="dense">
