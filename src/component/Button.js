@@ -9,6 +9,8 @@ export default class Button extends React.Component {
     red: PropTypes.bool,
     blue: PropTypes.bool,
     wide: PropTypes.bool,
+    display: PropTypes.bool,
+    gray: PropTypes.bool,
     clickHandler: PropTypes.func,
   };
 
@@ -22,6 +24,8 @@ export default class Button extends React.Component {
       this.props.red ? "red" : "",
       this.props.blue ? "blue" : "",
       this.props.wide ? "wide" : "",
+      this.props.gray ? "gray" : "",
+      this.props.display ? "display" : "",
     ];
 
     return (
