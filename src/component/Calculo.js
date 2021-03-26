@@ -10,6 +10,7 @@ export default function calculate(obj, buttonName) {
             total: null,
             next: null,
             operation: null,
+            
         };
     }
 
