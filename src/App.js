@@ -1,18 +1,13 @@
-import React from "react";
-import Display from "./component/Display";
-import ButtonPanel from "./component/ButtonPanel";
-import calculate from "./logic/calculate";
+import React from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import SvgIcon from '@material-ui/core/SvgIcon';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import { Button } from '@material-ui/core';
+import TextField from '@material-ui/core/TextField'
 
-
-
-
-import "./App.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,64 +18,210 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
+  altura: {
+
+    paddingTop: 80,
+
   },
-  display: 'flex',
-    '& > *': {
-      margin: theme.spacing(1),
-     
-    },
-    '& > svg': {
-      margin: theme.spacing(2),
-    },
+
+  margen: {
+    paddingInline: 30,
+  },
+
+  mas: {
+
+    position: 'relative',
+    width: 200,
+  },
+
+  textoGrande:{
+
+    fontSize:80,
+  },
+
 
 }));
 
-function HomeIcon(props) {
+function App() {
+  const classes = useStyles();
+
   return (
-    <SvgIcon {...props}>
-      <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-    </SvgIcon>
+    <div>
+      <React.Fragment>
+        <CssBaseline />
+        <Container maxWidth="sm" className={classes.altura}>
+          <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} >
+
+            <div className={classes.root}>
+              <Grid container spacing={3} className={classes.margen}>
+                <Grid item xs={12}>
+                  <Paper className={classes.paper}>
+                    <form className={classes.root} noValidate autoComplete="off"> 
+                      <TextField id="outlined-basic" size="medium" fullWidth label="Ingrese un valor" className={classes.textoGrande}  variant="outlined" />
+                    </form>
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="secondary">
+                      AC
+                    </Button>
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      CE
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      %
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      /
+                  </Button>
+                  </Paper>
+                </Grid>
+
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      7
+                    </Button>
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      8
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      9
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      *
+                  </Button>
+                  </Paper>
+                </Grid>
+
+
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      4 
+                    </Button>
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      5
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      6
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      -
+                  </Button>
+                  </Paper>
+                </Grid>
+
+
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      1
+                    </Button>
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      2
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      3
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3} className={classes.mas}>
+                  <Paper className={classes.paper} >
+                    <Button variant="outlined" color="primary">
+                      +
+                  </Button>
+                  </Paper>
+                </Grid>
+
+
+
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      0
+                    </Button>
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      .
+                    </Button>
+
+                  </Paper>
+                </Grid>
+                <Grid item xs={3}>
+                  <Paper className={classes.paper}>
+                    <Button variant="outlined" color="primary">
+                      =
+                    </Button>
+
+                  </Paper>
+                </Grid>
+
+
+              </Grid>
+            </div>
+
+          </Typography>
+        </Container>
+      </React.Fragment>
+    </div>
   );
 }
 
-export default class App extends React.Component {
-  state = {
-    total: null,
-    next: null,
-    operation: null,
-  };
-
-  handleClick = buttonName => {
-    this.setState(calculate(this.state, buttonName));
-  };
-
-  render() {
-    return (
-
-
-      <Container maxWidth="sm" className={useStyles.altura}>
-        <Typography component="div" style={{ backgroundColor: 'white', height: '100vh' }} >
-          <div className={useStyles.root}>
-            <AppBar position="static">
-              <Toolbar variant="dense">
-                <Typography  variant="h6" color="inherit">
-                <HomeIcon style={{ fontSize: 40 }} />
-                <div>
-                Calculadora Johan
-                </div>
-                </Typography>
-              </Toolbar>
-            </AppBar>
-          </div>
-          <div className="component-app">
-            <Display value={this.state.next || this.state.total || "0"} />
-            <ButtonPanel clickHandler={this.handleClick} />
-          </div>
-        </Typography>
-      </Container>
-
-    );
-  }
-}
+export default App;
