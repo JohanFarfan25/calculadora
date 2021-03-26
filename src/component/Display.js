@@ -26,7 +26,7 @@ export default class Display extends React.Component {
     return (
       <Container maxWidth="sm" >
       <Grid container spacing={12} className={useStyles.margen}>
-      <div id="outlined-basic" fullWidth variant="outlined" className="component-display">
+      <div id="outlined-basic" fullWidthclassName="component-display">
         <div>{this.props.value}</div>
       </div>
       </Grid>
