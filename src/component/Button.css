@@ -5,7 +5,8 @@
 }
 
 .component-button.wide {
-    width: 50%;
+    position: relative;
+    height: 205%;
 }
 
 .component-button button {
@@ -26,7 +27,21 @@
     color: white;
 }
 
+.component-button.red button:hover {
+    background-color: mintcream;
+    color: black;
+}
+
 .component-button.blue button:hover {
     background-color: mediumturquoise;
     color: white;
+}
+
+.component-button.gray button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.component-button.display button {
+    display: none;
 }
