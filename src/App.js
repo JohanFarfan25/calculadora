@@ -68,7 +68,7 @@ export default class App extends React.Component {
                 <Typography  variant="h6" color="inherit">
                 <HomeIcon style={{ fontSize: 40 }} />
                 <div>
-                Calculadora Johan
+                Calculadora Johan ADSI SENA
                 </div>
                 </Typography>
               </Toolbar>
