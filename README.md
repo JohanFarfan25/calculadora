@@ -16,7 +16,7 @@
 
 # Paso a Paso
 
-### Crear Projecto
+### Crear Aplicación
 Abrir la consolo y ubicarse en la carpeta donde vaa quedar isntalada la apilcación. ejecuatr comando npx create-react-app "nombre del projecto"
 
 ### Install material-ui
