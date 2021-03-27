@@ -81,7 +81,6 @@ La compilación se minimiza y los nombres de archivo incluyen los hash.\
 
 ## Documentación React
 
-Puedes aprender más en el [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Puedes aprender más en [React documentation](https://reactjs.org/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
