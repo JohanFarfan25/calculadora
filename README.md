@@ -1,5 +1,9 @@
 # React Calculator 
- Functionality Test [View Calculator](https://ecstatic-mcclintock-11a4e2.netlify.app/)
+
+![Calculadora](https://user-images.githubusercontent.com/71784239/112725035-14590c80-8ee4-11eb-9a84-b172bc60c550.PNG).
+
+
+ ### Functionality Test [View Calculator](https://ecstatic-mcclintock-11a4e2.netlify.app/).
 
 
 # Getting Started with Create React App
