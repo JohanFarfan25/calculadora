@@ -420,7 +420,7 @@ function App() {
 
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-              Bogota 2021
+              Bogota Colombia 2021
           </Typography>
             {auth && (
               <div>
