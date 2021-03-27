@@ -6,13 +6,17 @@
  ### Functionality Test [View Calculator](https://ecstatic-mcclintock-11a4e2.netlify.app/).
 
 
-# Getting Started with Create React App
+# Quick Start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.Clone the repo git clone https://github.com/JohanFarfan25/calculadora.git
+2.Go to your project folder from your terminal
+3.Run: npm install or yarn install
+4.After install, run: npm run start or yarn start
+5.It will open your browser(http://localhost:3000)
 
-## Available Scripts
+# Step by Step
 
-In the project directory, you can run:
+## Create view
 
 ### `npm start`
 
