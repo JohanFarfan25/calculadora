@@ -15,8 +15,30 @@
 ##### 5.It will open your browser(http://localhost:3000)
 
 # Step by Step
+###Create Project
+Abrir la consolo y ubicarse en la carpeta donde vaa quedar isntalada la apilcación. ejecuatr comando npx create-react-app "nombre del projecto"
 
-## Create view
+### Install material-ui
+Ejecute el comando npm install @material-ui/core.\
+luego de la instalación debe agregar al index.html "<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+## Create
+
+### En App.js importe los siguientes componentes:\
+![Componentes](https://user-images.githubusercontent.com/71784239/112726401-41f58400-8eeb-11eb-8c33-4798c7489294.PNG)
+
+
+### Crear la siguiente Constante
+![Constante UseStykes](https://user-images.githubusercontent.com/71784239/112726774-34d99480-8eed-11eb-9a3a-603a5a0230a3.PNG)
+
+### Dentro de la funcion App ecribir el siguiente codigo
+#### Funcionalidad Botones
+![FunctionApp1](https://user-images.githubusercontent.com/71784239/112726722-eb894500-8eec-11eb-8300-2a4da1b9b8ea.PNG)
+![FunctionApp2](https://user-images.githubusercontent.com/71784239/112726880-a3b6ed80-8eed-11eb-80c9-8319ab516074.PNG)
+![FunctionApp3](https://user-images.githubusercontent.com/71784239/112726889-ad405580-8eed-11eb-99f3-45f8f0fc847f.PNG)
+![FunctionApp4](https://user-images.githubusercontent.com/71784239/112726902-b6c9bd80-8eed-11eb-8df8-1fa3f17320fb.PNG)
+![FunctionApp5](https://user-images.githubusercontent.com/71784239/112726916-cc3ee780-8eed-11eb-95b3-d4a501c3df1d.PNG)
+
 
 ### `npm start`
 
